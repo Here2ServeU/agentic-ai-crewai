@@ -29,7 +29,7 @@ Each agent has a role, a goal, a backstory, and tools. They work in sequence —
 
 ```
 agentic-ai-crewai/
-├── crew.py              # Main script — agents, tasks, crew, and runner
+├── research_crew.py              # Main script — agents, tasks, crew, and runner
 ├── requirements.txt     # Python dependencies
 ├── .env.example         # Template for your API keys
 ├── .gitignore           # Protects secrets from being pushed to GitHub
@@ -338,7 +338,7 @@ crew = Crew(
 Make sure your virtual environment is active and your API key is set, then:
 
 ```bash
-python crew.py
+python research_crew.py
 ```
 
 You will see each agent's reasoning printed to the terminal in real time.
@@ -426,6 +426,6 @@ When the crew finishes, you will find `fintech_executive_briefing.md` in the pro
 
 ---
 
-## 📄 License
+## License
 
 MIT License — free to use, modify, and share with attribution.
